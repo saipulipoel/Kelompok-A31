@@ -1,12 +1,6 @@
  <style>
-body {
-   float: left;
-   font-size: 18px;
-}
 
-
-
-  header {
+  #header {
    background-color: #666;
    padding: 10px;
    text-align: center;
@@ -14,7 +8,7 @@ body {
    color: white;
 }
 
- footer {
+ #footer {
   background-color: #777;
   padding: 10px;
   text-align: center;
