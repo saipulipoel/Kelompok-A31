@@ -1,13 +1,10 @@
  <style>
+body {
+   float: left;
+   font-size: 18px;
+}
 
 
- footer {
-  background-color: #777;
-  padding: 10px;
-  text-align: center;
-  font-size: 18px;
-  color: white;
-        }
 
   header {
    background-color: #666;
@@ -16,6 +13,14 @@
    font-size: 18px;
    color: white;
 }
+
+ footer {
+  background-color: #777;
+  padding: 10px;
+  text-align: center;
+  font-size: 18px;
+  color: white;
+        }
 
 
  </style>
