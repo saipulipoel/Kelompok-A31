@@ -15,12 +15,17 @@ font-size: 28px;
 text-align: center;
 color: blue;
 }
-main > p{
-font-size: 16px;
-  color: green;
+
+main > .isi{
   background: white;
   margin: 4px;
 }
+
+.isi > p{
+font-size: 16px;
+  color: green;
+}
+
 footer {
   background-color: #777;
   padding: 10px;
