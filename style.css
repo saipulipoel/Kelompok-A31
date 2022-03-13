@@ -10,21 +10,21 @@ main {
   padding: 5px;
   background-color: lightgray;
 }
-main > h1{
+main > h1 {
 font-size: 28px;
 text-align: center;
 color: blue;
 }
-main > h1, #isi {
+main > h1, .isi {
  margin: 10px; 
 }
 
-main > #isi{
+.isi {
   background: white;
   margin: 4px;
 }
 
-#isi > p{
+.isi > p {
 font-size: 16px;
   color: green;
 }
