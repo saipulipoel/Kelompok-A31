@@ -15,13 +15,16 @@ font-size: 28px;
 text-align: center;
 color: blue;
 }
+main > h1, #isi {
+ margin: 10px; 
+}
 
-main > .isi{
+main > #isi{
   background: white;
   margin: 4px;
 }
 
-.isi > p{
+#isi > p{
 font-size: 16px;
   color: green;
 }
