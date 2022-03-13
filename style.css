@@ -5,7 +5,11 @@ header {
   font-size: 35px;
   color: white;
 }
-
+main {
+font-size: 28px;
+text-align: center;
+color: blue;
+}
 footer {
   background-color: #777;
   padding: 10px;
