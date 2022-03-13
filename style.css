@@ -25,8 +25,9 @@ main > h1, .isi {
 }
 
 .isi > p {
-font-size: 16px;
+font-size: 24px;
   color: green;
+  margin: 5px;
 }
 
 footer {
