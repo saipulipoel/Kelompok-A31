@@ -18,6 +18,8 @@ color: blue;
 main > p{
 font-size: 16px;
   color: green;
+  background: white;
+  margin: 4px;
 }
 footer {
   background-color: #777;
