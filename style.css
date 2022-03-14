@@ -156,7 +156,7 @@ footer p{
   position: relative;
   animation-name: move;
   animation-duration: 25s;
-  animation-iteration-count: 10;
+  animation-iteration-count: infinite;
   /* animation-timing-function: ease; */
   animation-delay: 1s;
 }
