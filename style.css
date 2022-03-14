@@ -25,8 +25,29 @@ a {
 
 .top-wrapper{
   padding: 150px 0px;
+  background-image: url(img/rumbling.jpg);
+  background-size: cover;
   color: #5f5d60;
   text-align: center;
+}
+
+.top-wrapper h1 {
+  font-size: 45px;
+  letter-spacing: 5px;
+  margin-bottom: 10px;
+}
+
+.top-wrapper p {
+  opacity: 0.7;
+  margin-bottom: 3px;
+}
+
+.btn-wrapper {
+  margin: 20px 0;
+}
+
+.btn-wrapper p {
+  margin: 10px 0;
 }
 
 .instagram {
@@ -47,6 +68,21 @@ a {
 
 .fa {
   margin-right: 3px;
+}
+
+header{
+  height: 50px;
+  width: 100%;
+  background-color: rgba(46, 50, 51, 0.9);
+  position: fixed;
+  top: 0;
+  z-index: 10;
+}
+
+.header-left{
+ text-align: center; 
+ color: white;
+ font-size: 32px;
 }
 
 .team-wrapper{
@@ -101,4 +137,34 @@ a {
   margin-top: 20px;
   font-size: 15px;
   color: #b3aeb5;
+}
+
+footer{
+  padding-top: 20px;
+  height: 40px;
+  background-color: #5f5d60;
+}
+
+footer p{ 
+  width: 500px;
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+
+.footer-container p{
+  position: relative;
+  animation-name: move;
+  animation-duration: 25s;
+  animation-iteration-count: 10;
+  /* animation-timing-function: ease; */
+  animation-delay: 1s;
+}
+
+@keyframes move{
+  0% {left: 0px; right: 0px;}
+  25% {left: 965px; right: 0px;}
+  50% {left: 0px; right: 965px;}
+  75% {left: 965px;right: 0px;}
+  100% {left: 0px; right: 965px;}
 }
