@@ -1,38 +1,104 @@
-header {
-  background-color: #666;
-  padding: 30px;
-  text-align: center;
-  font-size: 35px;
-  color: white;
-}
-main {
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
   margin: 0;
-  padding: 5px;
-  background-color: lightgray;
-}
-main > h1 {
-font-size: 28px;
-text-align: center;
-color: blue;
-}
-main > h1, .isi {
- margin: 10px; 
+  padding: 0;
 }
 
-.isi {
-  background: white;
-  margin: 4px;
+body {
+  font-family: "Century Gothic";
 }
 
-.isi > p {
-font-size: 24px;
-  color: green;
-  padding: 5px;
+li {
+  list-style: none;
 }
 
-footer {
-  background-color: #777;
-  padding: 10px;
+a {
+  text-decoration: none;
+}
+
+.container{
+  width: 1350px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper{
+  padding: 150px 0px;
+  color: #5f5d60;
   text-align: center;
+}
+
+.instagram {
+  background-color: #5f5d60;
+}
+
+.btn {
+  padding: 12px 24px;
   color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 5px;
+}
+
+.btn:hover {
+  opacity: 1;
+}
+
+.fa {
+  margin-right: 3px;
+}
+
+.team-wrapper{
+  height: 500px;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+
+.heading{
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+}
+
+.team{
+  float: left;
+  width: 20%;
+}
+
+.team h6{
+  color: #5f5d60;
+  padding-bottom: 15px; 
+}
+
+.team p{
+  color: #5f5d60;
+  font-size: 14px;
+  padding-bottom: 5px;
+}
+
+.team-icon{
+  position: relative;
+}
+
+.team-icon p{
+  position: absolute;
+  top: 90px;
+  width: 100%;
+  color: white;
+}
+
+.team-icon img{
+  margin: 0px;
+  border: 5px solid #5f5d60;
+  border-radius: 100%;
+}
+
+.txt-contents{
+  width: 80%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #b3aeb5;
 }
