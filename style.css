@@ -6,7 +6,7 @@ h1, h2, h3, h4, h5, h6, p, div {
 }
 
 body {
-  font-family: "Century Gothic";
+  font-family: 'Gothic A1', sans-serif;
 }
 
 li {
@@ -18,16 +18,15 @@ a {
 }
 
 .container{
-  width: 1350px;
-  padding: 0 15px;
-  margin: 0 auto;
+  width: 100%;
+
 }
 
 .top-wrapper{
   padding: 150px 0px;
   background-image: url(img/rumbling.jpg);
-  background-size: cover;
-  color: #5f5d60;
+  background-size: auto;
+  color: #000000;
   text-align: center;
 }
 
@@ -50,8 +49,12 @@ a {
   margin: 10px 0;
 }
 
-.instagram {
+.github {
   background-color: #5f5d60;
+}
+
+.github:hover {
+  background-color: #2d2d2e;
 }
 
 .btn {
@@ -62,9 +65,7 @@ a {
   border-radius: 5px;
 }
 
-.btn:hover {
-  opacity: 1;
-}
+
 
 .fa {
   margin-right: 3px;
@@ -140,6 +141,7 @@ header{
 }
 
 footer{
+  overflow: hidden;
   padding-top: 20px;
   height: 40px;
   background-color: #5f5d60;
@@ -167,4 +169,196 @@ footer p{
   50% {left: 0px; right: 965px;}
   75% {left: 965px;right: 0px;}
   100% {left: 0px; right: 965px;}
+}
+
+/*tampilan smartphone */
+@media only screen and (max-device-width: 601px) {
+.container{
+  max-width: 100%;
+
+}
+
+.team{
+  float: left;
+  width: 100%;
+}
+
+header{
+  height: 50px;
+  width: 100%;
+  background-color: rgba(46, 50, 51, 0.9);
+  position: relative;
+  top: 0;
+  z-index: 10;
+}
+.header-left{
+ text-align: center; 
+ color: white;
+ font-size: 32px;
+}
+
+footer{
+  width: 100%;
+  padding-top: 20px;
+  height: 40px;
+  background-color: #5f5d60;
+}
+
+footer p{ 
+  
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+
+.footer-container p{
+  position: relative;
+  animation-name: move;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  /* animation-timing-function: ease; */
+  animation-delay: 1s;
+}
+
+@keyframes move{
+  0% {left: 0px; right: 0px;}
+  25% {left: -300px; right: 0px;}
+  50% {left: 0px; right: 300px;}
+  75% {left: -300px;right: 0px;}
+  100% {left: 0px; right: 300px;}
+}
+.top-wrapper{
+  padding: 150px 0px;
+  background-image: url(img/rumbling.jpg);
+  background-size: auto;
+  color: #000000;
+  text-align: center;
+}
+.team-wrapper{
+  height: 100%;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+.github {
+  background-color: #5f5d60;
+
+}
+.github:hover {
+  background-color: #2d2d2e;
+}
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 5px;
+}
+
+.txt-contents{
+  width: 100%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+.fa {
+  margin-right: 3px;
+}
+}
+
+/*tampilan tablet */
+@media only screen and (min-device-width: 601px) and (max-device-width: 992px) {
+.container{
+  max-width: 100%;
+
+}
+
+.team{
+  float: left;
+  width: 50%;
+}
+
+header{
+  height: 50px;
+  width: 100%;
+  background-color: rgba(46, 50, 51, 0.9);
+  position: relative;
+  top: 0;
+  z-index: 10;
+}
+.header-left{
+ text-align: center; 
+ color: white;
+ font-size: 32px;
+}
+
+footer{
+  width: 100%;
+  padding-top: 20px;
+  height: 40px;
+  background-color: #5f5d60;
+}
+
+footer p{ 
+  
+  text-align: center;
+  color: white;
+  font-size: 15px;
+}
+
+.footer-container p{
+  position: relative;
+  animation-name: move;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+  /* animation-timing-function: ease; */
+  animation-delay: 1s;
+}
+
+@keyframes move{
+  0% {left: 0px; right: 0px;}
+  25% {left: 300px; right: 0px;}
+  50% {left: 0px; right: 300px;}
+  75% {left: 300px;right: 0px;}
+  100% {left: 0px; right: 300px;}
+}
+.top-wrapper{
+  padding: 150px 0px;
+  background-image: url(img/rumbling.jpg);
+  background-size: auto;
+  color: #000000;
+  text-align: center;
+}
+.team-wrapper{
+  height: 100%;
+  padding-bottom: 80px;
+  background-color: #f7f7f7;
+  text-align: center;
+}
+.github {
+  background-color: #5f5d60;
+
+}
+.github:hover {
+  background-color: #2d2d2e;
+}
+.btn {
+  padding: 12px 24px;
+  color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 5px;
+}
+
+.txt-contents{
+  width: 100%;
+  display: inline-block;
+  margin-top: 20px;
+  font-size: 15px;
+  color: #b3aeb5;
+}
+.fa {
+  margin-right: 3px;
+}
 }
